@@ -1,14 +1,9 @@
 version: 0.2
 
 phases:
-  install:
-    commands:
-      - echo installing Node 21 e npm...
-      - curl -fsSL https://rpm.nodesource.com/setup_21.x | sudo bash -
-      - sudo yum install -y nodejs
   build:
     commands:
+      - echo Instalando dependencias...
       - npm install --loglevel=error
-      - cd client && VITE_API_URL=http://meddiflux-homo-env.eba-ikwdp2ka.us-east-1.elasticbeanstalk.com npm run build
-      - Rodando testes unitarios
+      - echo Rodando testes unitarios...
       - npm test

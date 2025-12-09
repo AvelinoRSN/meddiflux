@@ -11,8 +11,8 @@ const DadosHenrylle = () => {
           rel="noopener noreferrer"
           className="link-card"
         >
-          <h4>💬 Suporte</h4>
-          <p>Formação AWS</p>
+          <h4>💬 Suporte em AWS</h4>
+          <p>Formação em AWS</p>
         </a>
         
         <a
